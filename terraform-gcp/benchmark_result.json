@@ -1,0 +1,26 @@
+{
+    "dataset": {
+        "path": "/home/hochiminhcity123456789_gmail_com/ml-benchmark/creditcard.csv",
+        "total_samples": 284807,
+        "train_samples": 227845,
+        "test_samples": 56962,
+        "features": 30
+    },
+    "timing": {
+        "data_load_seconds": 1.9785520559998986,
+        "training_seconds": 5.670607110999981
+    },
+    "metrics": {
+        "auc_roc": 0.8775769505185305,
+        "accuracy": 0.9986482216214319,
+        "f1_score": 0.6384976525821596,
+        "precision": 0.591304347826087,
+        "recall": 0.6938775510204082
+    },
+    "inference": {
+        "single_row_latency_ms": 0.9041426299995692,
+        "batch_size": 1000,
+        "batch_inference_seconds": 0.0069278460000532505,
+        "throughput_samples_per_second": 144345.00997746104
+    }
+}
